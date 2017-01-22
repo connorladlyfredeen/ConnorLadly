@@ -30,8 +30,8 @@
     "test": "npm run lint && npm run security-check",
     "watch": "webpack --watch"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-react": "^6.0.0",
