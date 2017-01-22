@@ -29,7 +29,9 @@
     "test": "npm run lint && npm run security-check",
     "watch": "webpack --watch"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "serve-favicon": "^2.3.2"
+  },
   "dependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
