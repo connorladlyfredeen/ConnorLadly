@@ -25,7 +25,7 @@
     "setup": ". ./setup.sh",
     "dev": "webpack-dev-server --hot --inline",
     "server": "node server.js",
-    "postinstall": "npm install && npm run bundle",
+    "postinstall": "npm run bundle",
     "start": "npm run server",
     "test": "npm run lint && npm run security-check",
     "watch": "webpack --watch"
