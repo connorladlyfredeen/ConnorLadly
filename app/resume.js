@@ -162,7 +162,7 @@ module.exports = {
             "summary": "My personal website built with React and Weback. It is served from a custom NodeJS server using Express and hosted on Heroku."
         },
         {
-            "name": "Chess:Web:OOP, C++",
+            "name": "Chess:Desktop:OOP, C++",
             "publisher": "connorladly",
             "releaseDate": "2016-07-15",
             "website": "https://github.com/connorladlyfredeen/ConnorLadly",
