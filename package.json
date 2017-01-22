@@ -25,8 +25,7 @@
     "setup": ". ./setup.sh",
     "dev": "webpack-dev-server --hot --inline",
     "postinstall": "npm run bundle",
-    "server": "node server.js",
-    "start": "npm run server",
+    "start": "node server.js",
     "test": "npm run lint && npm run security-check",
     "watch": "webpack --watch"
   },
@@ -51,8 +50,5 @@
     "superagent": "^3.0.0",
     "webpack": "^1.0.0",
     "webpack-dev-server": "^1.0.0"
-  },
-  "eslintConfig": {
-    "extends": "suddi/frontend"
   }
 }
