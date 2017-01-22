@@ -24,6 +24,7 @@
     "security-check": "nsp check --output summary",
     "setup": ". ./setup.sh",
     "dev": "webpack-dev-server --hot --inline",
+    "postinstall": "npm run bundle",
     "server": "node server.js",
     "start": "npm run server",
     "test": "npm run lint && npm run security-check",
