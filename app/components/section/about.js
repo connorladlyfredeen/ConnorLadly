@@ -38,7 +38,7 @@ const About = React.createClass({
                                     <br/>
                                     <span>{this.props.content.location.countryCode}</span>
                                     <br/>
-                                    <a href={'skype:' + this.props.content.phone}>
+                                    <a href=''>
                                         <span>{this.props.content.phone}</span>
                                     </a>
                                     <br/>
