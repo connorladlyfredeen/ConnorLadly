@@ -14,7 +14,7 @@ module.exports = {
         education: 'Education',
         skill: 'Skills',
         portfolio: 'Portfolio',
-        testimonials: 'References'
+        // testimonials: 'References'
         // contact: 'Contact'
     },
 
@@ -26,7 +26,7 @@ module.exports = {
             },
             'RBC Homerun': {
                 thumb: 'public/images/portfolio/thumb/homerun.jpg',
-                modal: 'public/images/portfolio/modal/homerun.png'
+                modal: 'public/images/portfolio/modal/homerun.jpg'
             },
             'Chess': {
                 thumb: 'public/images/portfolio/thumb/chess.gif',

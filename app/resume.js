@@ -311,11 +311,11 @@ module.exports = {
             "name": "Hackathons",
             "keywords": []
         }
-    ],
-    "references": [
-        {
-            "name": "Edward Wong:Director, Digital Strategy and Innovation:Royal Bank of Canada",
-            "reference": "One of the greatest experiences of participating in a hackathon is having the opportunity to work with great people who have exceptional talent. This is how I would sum up Connor. I had the privileged to join a team for the RBC Innovation Challenge in April 2016 and Connor was one of our key developers. Having never met or worked with Connor before, all I can say is nothing but the highest regards for this individual. His commitment to our team, dedication to drive to a solution (even coding into the wee hours of day 2), and his professional attitude in working with team mates with whom he had never work with before. ... I highly recommend Connor and, as a matter of fact, would not hesitate to bring him onto any of my teams. I truly believe in 'deeds and not words'. Connor has proven himself through his amazing 'deeds' for the team and our solution which evidently placed us in the Top 3 for the event! Thank-you Connor!!! "
-        }
     ]
+    // "references": [
+    //     {
+    //         "name": "Edward Wong:Director, Digital Strategy and Innovation:Royal Bank of Canada",
+    //         "reference": "One of the greatest experiences of participating in a hackathon is having the opportunity to work with great people who have exceptional talent. This is how I would sum up Connor. I had the privileged to join a team for the RBC Innovation Challenge in April 2016 and Connor was one of our key developers. Having never met or worked with Connor before, all I can say is nothing but the highest regards for this individual. His commitment to our team, dedication to drive to a solution (even coding into the wee hours of day 2), and his professional attitude in working with team mates with whom he had never work with before. ... I highly recommend Connor and, as a matter of fact, would not hesitate to bring him onto any of my teams. I truly believe in 'deeds and not words'. Connor has proven himself through his amazing 'deeds' for the team and our solution which evidently placed us in the Top 3 for the event! Thank-you Connor!!! "
+    //     }
+    // ]
 };

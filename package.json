@@ -41,7 +41,6 @@
     "husky": "^0.12.0",
     "moment": "^2.11.2",
     "nsp": "^2.6.2",
-    "nuka-carousel": "^2.0.0",
     "react": "^15.0.0",
     "react-addons-css-transition-group": "^15.0.0",
     "react-dom": "^15.0.0",

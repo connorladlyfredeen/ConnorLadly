@@ -8,7 +8,7 @@ const Work = require('./work');
 const Education = require('./education');
 const Skills = require('./skills');
 const Portfolio = require('./portfolio');
-const References = require('./references');
+// const References = require('./references');
 const Footer = require('./footer');
 
 const Section = React.createClass({
@@ -35,7 +35,7 @@ const Section = React.createClass({
                 <Education content={this.props.education}/>
                 <Skills content={skillsContent}/>
                 <Portfolio content={this.props.portfolio}/>
-                <References content={this.props.references}/>
+                {/*<References content={this.props.references}/>*/}
                 <Footer content={this.props.basics}/>
             </div>
         );
