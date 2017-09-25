@@ -36,10 +36,10 @@ module.exports = {
         {
             "company": "CastorEDC",
             "position": "Software Engineering Intern",
-            "website": "https://www.rbccm.com/en/",
-            "startDate": "2016-09-01",
-            "endDate": "2016-12-23",
-            "summary": "Toronto, Ontario",
+            "website": "https://www.castoredc.com/",
+            "startDate": "2017-05-01",
+            "endDate": "2017-08-24",
+            "summary": "Amsterdam, Netherlands",
             "highlights": [
                 "Implemented an innovative application to enable researchers to request access to patient data while maintaining patient anonymity using PHP’s Laravel framework and MySQL",
                 "Developed a high entropy data encryption module for Laravel that regulated data access using symmetric-key and asymmetric-key encryption algorithms",
@@ -125,6 +125,7 @@ module.exports = {
                 "Object Oriented Programming",
                 "Calculus and Linear Algebra",
                 "Assemblers and Assembly Language",
+                "Operating Systems",
                 "Algorithms and Data Structures",
                 "Statistics",
                 "Combinatorics",
@@ -132,24 +133,24 @@ module.exports = {
                 "Physics",
                 "Economics"
             ]
-        },
-        {
-            "institution": "Coursera",
-            "area": "Stanford Machine Learning",
-            "studyType": "Online Course",
-            "startDate": "2017-01-01",
-            "endDate": "2017-04-30",
-            "gpa": "",
-            "summary": "Machine Learning Course",
-            "courses": []
         }
+        // {
+        //     "institution": "Coursera",
+        //     "area": "Stanford Machine Learning",
+        //     "studyType": "Online Course",
+        //     "startDate": "2017-01-01",
+        //     "endDate": "2017-04-30",
+        //     "gpa": "",
+        //     "summary": "Machine Learning Course",
+        //     "courses": []
+        // }
     ],
     "awards": [
         {
             "title": "Dean's Honor List",
             "date": "2014-09-01",
             "awarder": "University of Waterloo",
-            "summary": "Award recieved for three of four terms completed so far. A marks based recognition of the top students in the math faculty."
+            "summary": "Award received for two of five terms completed so far. A marks based recognition of the top students in the math faculty."
         }
     ],
     "publications": [
@@ -244,6 +245,30 @@ module.exports = {
             "level": "60",
             "keywords": [
                 "os",
+                "technical"
+            ]
+        },
+        {
+            "name": "Encryption",
+            "level": "60",
+            "keywords": [
+                "encryption",
+                "technical"
+            ]
+        },
+        {
+            "name": "PHP",
+            "level": "75",
+            "keywords": [
+                "programming",
+                "technical"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "level": "75",
+            "keywords": [
+                "database",
                 "technical"
             ]
         },
