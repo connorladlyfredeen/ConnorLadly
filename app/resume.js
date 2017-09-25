@@ -6,13 +6,13 @@ module.exports = {
         "email": "cfladlyf@uwaterloo.ca",
         "phone": "905.330.8991",
         "website": "connorladly.com",
-        "summary": "I am an enthousiastic software developer and mathematician. I am constantly exploring new technologies and how they can better improve our lives. I am a proud Canadian with a passion for science fiction novels and ballet. I have experience in both production grade and prototype development and am looking for opportunities to share my knowledge and interest.",
+        "summary": "I am an enthousiastic software developer and mathematician. I am constantly exploring new technologies and how they can better improve our lives. I am a proud Canadian with a passion for science fiction novels, quiditch, and ballet. I have experience in both production grade and prototype development and am looking for opportunities to share my knowledge and interest.",
         "location": {
             "address": "",
             "postalCode": "",
             "city": "Waterloo",
             "countryCode": "Ontario",
-            "region": ""
+            "region": "Canada"
         },
         "profiles": [
             {
@@ -33,6 +33,19 @@ module.exports = {
         ]
     },
     "work": [
+        {
+            "company": "CastorEDC",
+            "position": "Software Engineering Intern",
+            "website": "https://www.rbccm.com/en/",
+            "startDate": "2016-09-01",
+            "endDate": "2016-12-23",
+            "summary": "Toronto, Ontario",
+            "highlights": [
+                "Implemented an innovative application to enable researchers to request access to patient data while maintaining patient anonymity using PHP’s Laravel framework and MySQL",
+                "Developed a high entropy data encryption module for Laravel that regulated data access using symmetric-key and asymmetric-key encryption algorithms",
+                "Integrated a new encryption server into the core flow of the medical data capture system to enable the largest clients to increase data throughput"
+            ]
+        },
         {
             "company": "Royal Bank of Canada - Capital Markets",
             "position": "Algorithmic Trading Developer",
