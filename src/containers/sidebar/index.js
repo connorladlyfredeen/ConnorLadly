@@ -33,11 +33,11 @@ const SidebarDropdown = ({
   pathname,
 }) => childrenNav ? (
   <Collapse collapsed={collapsed}>
-    <div className="adept-app__sidebar__dropdown">
+    <div className="connorladly-app__sidebar__dropdown">
       {childrenNav.map((child, i) => {
         const icon = child.icon ? (<FontIcon>{child.icon}</FontIcon>) : null;
-        const itemClasses = classNames('adept-app__sidebar__item', {
-          'adept-app__sidebar__item--active-color': shouldBeActive(pathname, child),
+        const itemClasses = classNames('connorladly-app__sidebar__item', {
+          'connorladly-app__sidebar__item--active-color': shouldBeActive(pathname, child),
         });
         return (
           <Link
@@ -110,8 +110,8 @@ const Sidebar = (
     return settings && settings.opened && settings.opened.indexOf(name) > -1 && !settings.collapsed;
   };
 
-  const sidebarClasses = classNames('adept-app__sidebar', {
-    'adept-app__sidebar--collapsed': settings.collapsed,
+  const sidebarClasses = classNames('connorladly-app__sidebar', {
+    'connorladly-app__sidebar--collapsed': settings.collapsed,
   });
 
   const handleSidebarCollapse = () => onNavCollapse(!settings.collapsed);
@@ -144,8 +144,8 @@ const Sidebar = (
           const rightIcon = (
             <DropdownIcon item={navItem} opened={collapsed} onClick={onNavItemCollapseClick} />
           );
-          const parentItemClasses = classNames('adept-app__sidebar__item', {
-            'adept-app__sidebar__item--active': shouldBeActive(pathname, navItem),
+          const parentItemClasses = classNames('connorladly-app__sidebar__item', {
+            'connorladly-app__sidebar__item--active': shouldBeActive(pathname, navItem),
           });
 
           return (
@@ -171,10 +171,10 @@ const Sidebar = (
       </List>
       <Button
         flat
-        className="adept-app__sidebar__collapse"
+        className="connorladly-app__sidebar__collapse"
         onClick={handleSidebarCollapse}
       >
-        <span className="adept-app__sidebar__collapse-label">Collapse</span>
+        <span className="connorladly-app__sidebar__collapse-label">Collapse</span>
         <FontIcon>arrow_back</FontIcon>
       </Button>
     </div>

@@ -2,7 +2,7 @@
 @import '../../styles/mixins';
 
 // Styles specific to the component in index.js should go here
-.adept-app {
+.connorladly-app {
   &__content-wrapper {
     @include transition(padding-left);
     display: flex;

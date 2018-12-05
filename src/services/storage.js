@@ -1,7 +1,7 @@
 export const STORAGE_KEYS = {
-  PROVIDER: 'adept-provider',
-  USER_STORAGE_KEY: 'adept-user',
-  USER_SETTINGS: 'adept-user-settings',
+  PROVIDER: 'connorladly-provider',
+  USER_STORAGE_KEY: 'connorladly-user',
+  USER_SETTINGS: 'connorladly-user-settings',
 };
 
 export const getStorage = (key) => {

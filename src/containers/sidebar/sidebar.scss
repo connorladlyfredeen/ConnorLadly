@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 @import '../../styles/mixins';
 
-.adept-app__sidebar {
+.connorladly-app__sidebar {
   @include transition(width);
   border-right: solid 1px #D4D5D9;
   overflow: hidden;
@@ -55,7 +55,7 @@
     flex-direction: column;
     background: #fff;
 
-    .adept-app__sidebar__item {
+    .connorladly-app__sidebar__item {
       .md-fake-btn {
         padding-left: $gutter;
         text-decoration: none;
@@ -114,11 +114,11 @@
     }
   }
 
-  &.adept-app__sidebar--collapsed {
+  &.connorladly-app__sidebar--collapsed {
     overflow: hidden;
     width: $sidebar-collapsed-width;
 
-    .adept-app__sidebar {
+    .connorladly-app__sidebar {
       &__collapse.md-btn {
         i {
           transform: rotate(180deg);

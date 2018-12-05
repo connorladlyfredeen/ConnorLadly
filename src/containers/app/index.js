@@ -26,20 +26,20 @@ const App = ({
   settings,
   onLogoClick,
 }) => {
-  const contentClassnames = classNames('adept-app__content-wrapper', {
-    'adept-app__content-wrapper--sidebar-closed': settings.sidebar.collapsed,
+  const contentClassnames = classNames('connorladly-app__content-wrapper', {
+    'connorladly-app__content-wrapper--sidebar-closed': settings.sidebar.collapsed,
   });
   return (
-    <div className="adept-app__site-wrapper">
+    <div className="connorladly-app__site-wrapper">
       <Toolbar
         colored
-        className='adept-app__header'
+        className='connorladly-app__header'
         title={<AppHeaderLogo onClick={onLogoClick} />}
         zDepth={2}
       />
       <main className={contentClassnames}>
         <Sidebar navigation={sidebarNavigation} />
-        <div className="adept-app__main-content">
+        <div className="connorladly-app__main-content">
           <Switch>
             {appRoutes.map((route, i) => (
               <Route

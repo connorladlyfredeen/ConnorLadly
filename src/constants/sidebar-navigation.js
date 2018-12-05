@@ -1,28 +1,8 @@
 export default [
   {
-    label: 'Query Labeler',
+    label: 'Home',
     link: '/',
-    icon: 'label',
-    children: [
-      {
-        label: 'Queries',
-        link: '/',
-      },
-      {
-        label: 'Products',
-        link: '/products',
-      },
-    ],
-  },
-  {
-    label: 'Training',
-    link: '/training',
-    icon: 'build',
-    children: [
-      {
-        label: 'Models',
-        link: '/models',
-      },
-    ],
+    icon: 'home',
+    children: [],
   },
 ];
