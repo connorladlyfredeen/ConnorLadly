@@ -12,10 +12,6 @@
     padding-left: $sidebar-width + $content-gutter;
     padding-right: $content-gutter;
     z-index: $content-z-index;
-
-    &--sidebar-closed {
-      padding-left: $sidebar-collapsed-width + $gutter;
-    }
   }
 
   &__header {
@@ -40,6 +36,6 @@
   &__site-wrapper {
     padding: 0;
     background-color: $background-color;
-    min-height: 100vh;
+    min-height: 100px;
   }
 }

@@ -1,14 +1,13 @@
-import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
-import { Toolbar } from 'react-md';
+import { TabsContainer, Tabs, Tab } from 'react-md';
 
-import Sidebar from '../sidebar';
 import { appRoutes, sidebarNavigation } from '../../constants';
 import { exampleOperations } from '../../modules/base';
+import Navbar from '../navbar';
 
 import logo from '../../logo.svg';
 
@@ -26,19 +25,12 @@ const App = ({
   settings,
   onLogoClick,
 }) => {
-  const contentClassnames = classNames('connorladly-app__content-wrapper', {
-    'connorladly-app__content-wrapper--sidebar-closed': settings.sidebar.collapsed,
-  });
+  const contentClassnames = null;
   return (
     <div className="connorladly-app__site-wrapper">
-      <Toolbar
-        colored
-        className='connorladly-app__header'
-        title={<AppHeaderLogo onClick={onLogoClick} />}
-        zDepth={2}
-      />
       <main className={contentClassnames}>
-        <Sidebar navigation={sidebarNavigation} />
+        {/*<Sidebar navigation={sidebarNavigation} />*/}
+        <Navbar/>
         <div className="connorladly-app__main-content">
           <Switch>
             {appRoutes.map((route, i) => (
