@@ -1,0 +1,59 @@
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+  Tags: /tags
+  Categories: /categories
+
+
+
+# Social links
+social:
+  GitHub:
+    key: github
+    link: https://github.com/connorladlyfredeen
+  Twitter:
+    key: twitter
+    link: https://twitter.com/connorladly
+  Linkedin:
+    key: linkedin
+    link: https://linkedin.com/in/connorladlyfredeen
+
+# disqus comment
+disqus: false
+disqus_shortname: 
+
+# livere comment
+livere: false
+livere_uid:
+
+#Gitment (Recommended Use) see https://imsun.net/posts/gitment-introduction/
+Gitment: false
+Gitment_client_id: 
+Gitment_client_secret:
+Gitment_Github_id: 
+repo: 
+
+# # youyan comment
+# youyan: false
+# youyan_uid: 2156653
+
+# google analytics
+googleTagManagerId: GTM-NLRQ9QM
+
+# google AdSenseId
+AdSenseId: 
+
+
+toc:
+  enable: true
+
+# anchorjs
+anchorjs: true
+
+# sidebar search
+search: true
+# sidebar categories
+categories: true
+# sidebar links
+links: true
