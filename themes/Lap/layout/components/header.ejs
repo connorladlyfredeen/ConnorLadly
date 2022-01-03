@@ -1,4 +1,11 @@
 
+<% if (theme.googleTagManagerId){ %>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id='<%- theme.googleTagManagerId %>'"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+<% } %>
+
 <% if(page.headerImg) { %>
     <header class="header-container" style="background-image: url(<%- page.headerImg %>);">
 <% } else if(config.configimg) { %>
