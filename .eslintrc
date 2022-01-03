@@ -1,0 +1,7 @@
+{
+  "extends": "hexo",
+  "env": {
+    "jquery": true,
+    "browser": true
+  }
+}

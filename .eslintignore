@@ -1,0 +1,4 @@
+.github/*
+**/gulpfile.js
+node_modules
+themes/Lap/source/js/search.js
