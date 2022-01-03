@@ -20,29 +20,25 @@ social:
     link: https://linkedin.com/in/connorladlyfredeen
 
 # disqus comment
-disqus: false
-disqus_shortname: 
+disqus: true
+disqus_shortname: connorladly
 
-# livere comment
-livere: false
-livere_uid:
+# # livere comment
+# livere: false
+# livere_uid:
 
-#Gitment (Recommended Use) see https://imsun.net/posts/gitment-introduction/
-Gitment: false
-Gitment_client_id: 
-Gitment_client_secret:
-Gitment_Github_id: 
-repo: 
-
-# # youyan comment
-# youyan: false
-# youyan_uid: 2156653
+# #Gitment (Recommended Use) see https://imsun.net/posts/gitment-introduction/
+# Gitment: false
+# Gitment_client_id: 
+# Gitment_client_secret:
+# Gitment_Github_id: 
+# repo: 
 
 # google analytics
 googleTagManagerId: GTM-NLRQ9QM
 
 # google AdSenseId
-AdSenseId: 
+AdSenseId: ca-pub-4796081737903969
 
 
 toc:
