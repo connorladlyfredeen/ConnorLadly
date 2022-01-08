@@ -6,4 +6,4 @@ tags:
   - new
 ---
 
-# Check back soon for more content as I build out this site! In the meantime, check me out on linkedin or github -->
+# Check back soon for more content as I build out this site! In the meantime, check me out on LinkedIn or GitHub -->
