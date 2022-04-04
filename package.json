@@ -27,7 +27,7 @@
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-stylus": "^2.7.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.2"
   },
   "dependencies": {
     "hexo": "^6.0.0",
